@@ -133,6 +133,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         });
     }
 
+    //used to get hash key to create application on facebook developer page
     private void gethashkey() {
         try {
             PackageInfo info = getPackageManager().getPackageInfo("com.fblogintesting", PackageManager.GET_SIGNATURES);
